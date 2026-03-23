@@ -1,0 +1,3 @@
+﻿source  percentage_at_least_1_aspect
+0   Amazon                     91.934937
+1  Coupang                     94.030789
