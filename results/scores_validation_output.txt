@@ -1,0 +1,121 @@
+﻿--- Classification Performance Metrics ---
+Category: SENSORIALITY
+Accuracy:          0.9606
+Balanced Accuracy: 0.9454
+Macro F1-Score:    0.9542
+Classification Report:
+              precision    recall  f1-score   support
+       -99.0       0.93      0.98      0.96       228
+        -1.0       1.00      0.93      0.96        28
+         0.0       0.94      0.92      0.93        37
+         1.0       0.98      0.96      0.97       342
+    accuracy                           0.96       635
+   macro avg       0.96      0.95      0.95       635
+weighted avg       0.96      0.96      0.96       635
+------------------------------
+Category: PERFORMANCE
+Accuracy:          0.9417
+Balanced Accuracy: 0.9254
+Macro F1-Score:    0.9367
+Classification Report:
+              precision    recall  f1-score   support
+       -99.0       0.88      0.98      0.93       211
+        -1.0       1.00      0.95      0.97        19
+         0.0       0.94      0.85      0.89        39
+         1.0       0.98      0.93      0.95       366
+    accuracy                           0.94       635
+   macro avg       0.95      0.93      0.94       635
+weighted avg       0.94      0.94      0.94       635
+------------------------------
+Category: FINISH
+Accuracy:          0.9654
+Balanced Accuracy: 0.9280
+Macro F1-Score:    0.9195
+Classification Report:
+              precision    recall  f1-score   support
+       -99.0       0.97      0.99      0.98       521
+        -1.0       0.88      0.88      0.88         8
+         0.0       0.88      1.00      0.93         7
+         1.0       0.93      0.85      0.89        99
+    accuracy                           0.97       635
+   macro avg       0.91      0.93      0.92       635
+weighted avg       0.96      0.97      0.96       635
+------------------------------
+Category: SAFETY
+Accuracy:          0.9591
+Balanced Accuracy: 0.9289
+Macro F1-Score:    0.9537
+Classification Report:
+              precision    recall  f1-score   support
+       -99.0       0.94      1.00      0.97       373
+        -1.0       1.00      0.96      0.98        26
+         0.0       1.00      0.86      0.92         7
+         1.0       1.00      0.90      0.94       229
+    accuracy                           0.96       635
+   macro avg       0.98      0.93      0.95       635
+weighted avg       0.96      0.96      0.96       635
+------------------------------
+Category: EXTRINSIC
+Accuracy:          0.9386
+Balanced Accuracy: 0.8871
+Macro F1-Score:    0.9136
+Classification Report:
+              precision    recall  f1-score   support
+       -99.0       0.92      1.00      0.96       407
+        -1.0       0.93      0.95      0.94        39
+         0.0       0.96      0.79      0.87        33
+         1.0       0.98      0.81      0.89       156
+    accuracy                           0.94       635
+   macro avg       0.95      0.89      0.91       635
+weighted avg       0.94      0.94      0.94       635
+------------------------------
+Category: MENTIONS_INGREDIENT
+Accuracy:          0.9937
+Balanced Accuracy: 0.9810
+Macro F1-Score:    0.9884
+Classification Report:
+              precision    recall  f1-score   support
+           0       0.99      1.00      1.00       530
+           1       1.00      0.96      0.98       105
+    accuracy                           0.99       635
+   macro avg       1.00      0.98      0.99       635
+weighted avg       0.99      0.99      0.99       635
+------------------------------
+Category: MENTIONS_ROUTINE
+Accuracy:          0.9795
+Balanced Accuracy: 0.9570
+Macro F1-Score:    0.9709
+Classification Report:
+              precision    recall  f1-score   support
+           0       0.97      1.00      0.99       484
+           1       1.00      0.91      0.96       151
+    accuracy                           0.98       635
+   macro avg       0.99      0.96      0.97       635
+weighted avg       0.98      0.98      0.98       635
+------------------------------
+Category: MENTIONS_MAKEUP
+Accuracy:          0.9969
+Balanced Accuracy: 0.9846
+Macro F1-Score:    0.9913
+Classification Report:
+              precision    recall  f1-score   support
+           0       1.00      1.00      1.00       570
+           1       1.00      0.97      0.98        65
+    accuracy                           1.00       635
+   macro avg       1.00      0.98      0.99       635
+weighted avg       1.00      1.00      1.00       635
+------------------------------
+Calculated only on Amazon MENTIONS_KOREA (Analyzed records: 330)
+Category: MENTIONS_KOREA
+Accuracy:          1.0000
+Balanced Accuracy: 1.0000
+Macro F1-Score:    1.0000
+Classification Report:
+              precision    recall  f1-score   support
+         0.0       1.00      1.00      1.00       317
+         1.0       1.00      1.00      1.00        13
+    accuracy                           1.00       330
+   macro avg       1.00      1.00      1.00       330
+weighted avg       1.00      1.00      1.00       330
+------------------------------
+________________

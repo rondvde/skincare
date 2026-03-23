@@ -54,7 +54,15 @@ mentions_sum = (df_final[mentions_columns] == 1).sum(axis=1)
 
 df_final['aspect_count'] = aspect_sum + mentions_sum
 
-# 7. Save the updated dataset
+# 7. Add source and brand columns
+df_final = pd.merge(
+    df_final, 
+    df_data[['ID', 'source', 'brand']], 
+    on='ID', 
+    how='left'
+)
+
+# 8. Save the updated dataset
 output_path = "data/03_scored/data_scored_with_length.xlsx"
 df_final.to_excel(output_path, index=False)
 
